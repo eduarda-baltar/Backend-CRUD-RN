@@ -39,9 +39,6 @@ async function initDB() {
 
 await initDB();
 
--
-
-
 app.get("/", (req, res) => {
   res.send(`API rodando na porta ${PORT}. Acesse /items`);
 });
